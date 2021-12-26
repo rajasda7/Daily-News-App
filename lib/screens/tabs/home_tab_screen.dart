@@ -1,14 +1,9 @@
-import 'package:daily_news/models/my_news_model.dart';
 import 'package:daily_news/screens/news_detail_screen.dart';
 import 'package:daily_news/services/news_api_manager.dart';
 import 'package:daily_news/utils/data.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 class HomeTabScreen extends StatefulWidget {
   const HomeTabScreen({Key? key}) : super(key: key);
-
   @override
   _HomeTabScreenState createState() => _HomeTabScreenState();
 }

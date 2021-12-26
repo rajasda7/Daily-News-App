@@ -1,7 +1,3 @@
-// To parse this JSON data, do
-//
-//     final myNewsModel = myNewsModelFromJson(jsonString);
-
 import 'dart:convert';
 
 MyNewsModel myNewsModelFromJson(String str) => MyNewsModel.fromJson(json.decode(str));

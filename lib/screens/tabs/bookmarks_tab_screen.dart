@@ -1,24 +1,18 @@
 import 'package:daily_news/utils/data.dart';
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
 import '../news_detail_screen.dart';
 
 class BookmarksTabScreen extends StatefulWidget {
   const BookmarksTabScreen({Key? key}) : super(key: key);
-
   @override
   _BookmarksTabScreenState createState() => _BookmarksTabScreenState();
 }
 
 class _BookmarksTabScreenState extends State<BookmarksTabScreen> {
 
-
   @override
   void initState() {
     super.initState();
-
   }
   @override
   Widget build(BuildContext context) {
